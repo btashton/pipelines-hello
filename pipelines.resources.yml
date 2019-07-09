@@ -1,0 +1,8 @@
+resources:
+  - name: app
+    type: GitRepo
+    configuration:
+      gitProvider: gh-btashton
+      path: btashton/pipelines-hello
+      branches:
+        include: master
